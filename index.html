@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Typing Test</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Typing Test</h1>
+            <div id="timer">5:00</div>
+        </div>
+        <div class="typing-section">
+            <p id="text-to-type">...</p>
+            <textarea id="user-input" placeholder="Type the text here" disabled></textarea>
+        </div>
+        <div class="login-section" id="login-section">
+            <h2>Login</h2>
+            <form id="login-form">
+                <input type="text" id="username" placeholder="Username">
+                <input type="password" id="password" placeholder="Password">
+                <button type="submit" id="login-btn">Login</button>
+            </form>
+            <p id="login-message"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
